@@ -1,0 +1,162 @@
+[gd_scene load_steps=9 format=3 uid="uid://df6myysd08k6e"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_gk4wl"]
+[ext_resource type="AudioStream" uid="uid://dmawx8p70mnup" path="res://audio/bell.wav" id="2_w8bxq"]
+[ext_resource type="Texture2D" uid="uid://ic6d4eb2b532" path="res://img/warn.png" id="3_scld1"]
+[ext_resource type="Texture2D" uid="uid://i0cjf5jlvvcx" path="res://img/header_1.png" id="4_f6vyy"]
+[ext_resource type="Texture2D" uid="uid://dqpni8r8f3hl0" path="res://img/header_2.png" id="5_6xtj1"]
+[ext_resource type="Texture2D" uid="uid://l6tr778khip3" path="res://img/header_3.png" id="6_3w3iy"]
+[ext_resource type="Texture2D" uid="uid://7mqtgv0thq2l" path="res://img/logo.png" id="7_y2gfk"]
+[ext_resource type="Texture2D" uid="uid://bwht1cw57q4w4" path="res://img/ribbon_3.png" id="8_f7y0j"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_gk4wl")
+
+[node name="start_stop" type="Button" parent="."]
+offset_left = 512.0
+offset_top = 904.0
+offset_right = 640.0
+offset_bottom = 960.0
+disabled = true
+text = "Start"
+
+[node name="reset" type="Button" parent="."]
+offset_left = 704.0
+offset_top = 904.0
+offset_right = 832.0
+offset_bottom = 960.0
+text = "Reset"
+
+[node name="bell" type="Button" parent="."]
+offset_left = 896.0
+offset_top = 904.0
+offset_right = 1024.0
+offset_bottom = 960.0
+text = "Bell"
+
+[node name="min4" type="Button" parent="."]
+offset_left = 1088.0
+offset_top = 904.0
+offset_right = 1216.0
+offset_bottom = 960.0
+text = "4 Minutes"
+
+[node name="min5" type="Button" parent="."]
+offset_left = 1280.0
+offset_top = 904.0
+offset_right = 1408.0
+offset_bottom = 960.0
+text = "5 Minutes"
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 709.0
+offset_top = 436.0
+offset_right = 1211.0
+offset_bottom = 644.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.435294, 0.435294, 0.435294, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 150
+text = "43 : 33"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="timer" type="Timer" parent="."]
+
+[node name="bell_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_w8bxq")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 512.0
+offset_top = 767.0
+offset_right = 1408.0
+offset_bottom = 775.0
+color = Color(0.772549, 0.772549, 0.772549, 1)
+
+[node name="progressbar" type="ColorRect" parent="."]
+offset_left = 512.0
+offset_top = 767.0
+offset_right = 1408.0
+offset_bottom = 775.0
+color = Color(0, 0, 0, 1)
+
+[node name="Button" type="Button" parent="."]
+offset_left = 1824.0
+offset_top = 992.0
+offset_right = 1856.0
+offset_bottom = 1024.0
+icon = ExtResource("3_scld1")
+flat = true
+expand_icon = true
+
+[node name="Label2" type="Label" parent="."]
+visible = false
+offset_left = 1615.0
+offset_top = 824.0
+offset_right = 1841.0
+offset_bottom = 1014.0
+text = "Shortcuts: 
+Space - Start the  Countdown
+Enter  - Ring the Bell 
+Numpad 4 - Set for 4 Minutes
+Numpad 5 - Set for 5 Minutes
+Minus - Hide Buttons
+Plus - Show Buttons"
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+visible = false
+show_behind_parent = true
+offset_left = 1600.0
+offset_top = 808.0
+offset_right = 1847.0
+offset_bottom = 1016.0
+color = Color(0.129412, 0.129412, 0.129412, 1)
+
+[node name="UniversityOfPeradeniyaCrest-1" type="Sprite2D" parent="."]
+modulate = Color(0.937255, 0.937255, 0.937255, 1)
+position = Vector2(1070.25, 112)
+scale = Vector2(0.328767, 0.328767)
+texture = ExtResource("4_f6vyy")
+
+[node name="UniversityOfPeradeniyaCrest-2" type="Sprite2D" parent="."]
+modulate = Color(0.937255, 0.937255, 0.937255, 1)
+position = Vector2(1059, 167)
+scale = Vector2(0.27596, 0.27596)
+texture = ExtResource("5_6xtj1")
+
+[node name="UniversityOfPeradeniyaCrest-3" type="Sprite2D" parent="."]
+modulate = Color(0.937255, 0.937255, 0.937255, 1)
+position = Vector2(912, 216)
+scale = Vector2(0.32065, 0.32065)
+texture = ExtResource("6_3w3iy")
+
+[node name="UniversityOfPeradeniyaCrest-4" type="Sprite2D" parent="."]
+modulate = Color(0.937255, 0.937255, 0.937255, 1)
+position = Vector2(606.824, 166.824)
+scale = Vector2(0.713411, 0.713411)
+texture = ExtResource("7_y2gfk")
+
+[node name="UniversityOfPeradeniyaCrest-5" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(0.937255, 0.937255, 0.937255, 1)
+visibility_layer = 2
+z_index = -1
+position = Vector2(960, 540)
+scale = Vector2(0.48, 0.405594)
+texture = ExtResource("8_f7y0j")
+
+[connection signal="pressed" from="start_stop" to="." method="_on_start_stop_pressed"]
+[connection signal="pressed" from="reset" to="." method="_on_reset_pressed"]
+[connection signal="pressed" from="bell" to="." method="_on_bell_pressed"]
+[connection signal="pressed" from="min4" to="." method="_on_4_minutes_pressed"]
+[connection signal="pressed" from="min5" to="." method="_on_5_minutes_pressed"]
+[connection signal="timeout" from="timer" to="." method="_on_timer_timeout"]
+[connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]
+[connection signal="mouse_exited" from="Button" to="." method="_on_button_mouse_exited"]

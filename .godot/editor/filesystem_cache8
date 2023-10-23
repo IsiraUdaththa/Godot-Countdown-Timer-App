@@ -1,0 +1,22 @@
+2a60927148abd1d33b818b535e306557
+::res://::1690562470
+export_presets.cfg::TextFile::-1::1686555568::0::1::::<><>::
+icon.png::CompressedTexture2D::3363592869266219402::1685179452::1685408304::1::::<><>::
+main.gd::GDScript::-1::1687370930::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7574974731150140482::1687371667::0::1::::<><>::res://main.gd<>uid://dmawx8p70mnup<>uid://ic6d4eb2b532<>uid://i0cjf5jlvvcx<>uid://dqpni8r8f3hl0<>uid://l6tr778khip3<>uid://7mqtgv0thq2l<>uid://bwht1cw57q4w4
+::res://audio/::1686246259
+bell.wav::AudioStreamWAV::8002906779766816923::1685239154::1685419010::1::::<><>::
+::res://Countdown-Timer Black & White/::1686555647
+::res://img/::1686554678
+header_1.png::CompressedTexture2D::613258008471781927::1686554483::1686554678::1::::<><>::
+header_2.png::CompressedTexture2D::8314054583895310651::1686554330::1686554678::1::::<><>::
+header_3.png::CompressedTexture2D::837258703447118514::1686554316::1686554678::1::::<><>::
+logo.png::CompressedTexture2D::2271821280176774185::1685258301::1685443149::1::::<><>::
+ribbon.png::CompressedTexture2D::2737144305750868304::1685442670::1686554678::1::::<><>::
+ribbon_2.png::CompressedTexture2D::5836106877108688566::1686554256::1686554678::1::::<><>::
+ribbon_3.png::CompressedTexture2D::3946226081951208125::1686554271::1686554678::1::::<><>::
+ribbon_4.png::CompressedTexture2D::8961861604447222015::1686554288::1686554678::1::::<><>::
+sign.png::CompressedTexture2D::5336732522625916551::1685414988::1685443149::1::::<><>::
+University_of_Peradeniya_crest-1.png::CompressedTexture2D::7287099844360486706::1685387733::1685443149::1::::<><>::
+warn.png::CompressedTexture2D::567528618207816995::1685408566::1685443149::1::::<><>::
+_Path_.png::CompressedTexture2D::4526229412684727825::1685442670::1685443149::1::::<><>::
