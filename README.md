@@ -1,5 +1,8 @@
 # Godot-Countdown-Timer-App
 
+> Check out: 
+[KivyMD-Countdown-Timer-App](https://github.com/IsiraUdaththa/KivyMD-Countdown-Timer-App)
+
 The Godot Countdown Timer App created using the Godot game engine and GDScript. This project was developed as part of a debate competition organized by the University of Peradeniya.
 
 ## Features
