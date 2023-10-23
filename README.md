@@ -18,7 +18,7 @@ The Godot Countdown Timer App created using the Godot game engine and GDScript. 
 
 ## Screenshots
 
-![Alt text](image.png)
+![Alt text](screenshots/image.png)
 ## Contributing
 
 If you would like to contribute to this project, please follow these steps:
